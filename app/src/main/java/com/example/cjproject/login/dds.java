@@ -4,14 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.cjproject.R;
-
-public class FindID extends AppCompatActivity {
+public class dds extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_find_id);
-        //연습용!
+        setContentView(R.layout.activity_dds);
     }
 }

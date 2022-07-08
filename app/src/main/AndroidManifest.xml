@@ -14,25 +14,34 @@
         android:theme="@style/Theme.CJproject"
         tools:targetApi="31">
         <activity
-            android:name="com.example.cjproject.login.Passwordpopup"
+            android:name=".dds"
             android:exported="false" />
         <activity
-            android:name="com.example.cjproject.login.ResetPassword"
+            android:name=".prac"
             android:exported="false" />
         <activity
-            android:name="com.example.cjproject.login.FindPassword"
+            android:name=".practice"
             android:exported="false" />
         <activity
-            android:name="com.example.cjproject.login.FindID_Complete"
+            android:name=".Passwordpopup"
             android:exported="false" />
         <activity
-            android:name="com.example.cjproject.login.FindID"
+            android:name=".ResetPassword"
             android:exported="false" />
         <activity
-            android:name="com.example.cjproject.login.Login_main"
+            android:name=".FindPassword"
             android:exported="false" />
         <activity
-            android:name="com.example.cjproject.login.Join_Complete"
+            android:name=".FindID_Complete"
+            android:exported="false" />
+        <activity
+            android:name=".FindID"
+            android:exported="false" />
+        <activity
+            android:name=".Login_main"
+            android:exported="false" />
+        <activity
+            android:name=".Join_Complete"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
